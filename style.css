@@ -1,0 +1,88 @@
+html {
+  font-size: 13px;
+}
+
+form {
+  background-color: #2B7FE3;
+  color: white;
+  border-radius: 10px;
+  margin: 40% auto 0px auto;
+  padding: 20px;
+  
+}
+
+.username-div, .password-div, buttons-div {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+input, label, button {
+  margin: 10px 0px;
+  display: block;
+}
+
+input {
+  font-size: 13px;
+  padding: 10px;
+  background-color:#85A9D3;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  color: white;
+}
+
+
+
+.buttons-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-div > a {
+  display: block;
+}
+
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 15px;
+  border: 1px solid;
+  background-color: #f8f9fa;
+  width: 50%;
+  color: #2B7FE3;
+}
+
+.forgot-pswd {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width:500px) {
+  html {
+    font-size: 18px;
+  }
+
+  .username-div, .password-div, buttons-div {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  form {
+    width: 460px;
+    height: 420px;
+    margin-top: 10%;
+  }
+
+  input, button {
+    font-size: 18px;
+  }
+}
